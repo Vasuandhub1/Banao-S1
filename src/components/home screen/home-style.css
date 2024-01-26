@@ -1,0 +1,112 @@
+.home-wrapper {
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+    background: var(--Purple-3, #F7F5F9);
+    background-image: url("./img2.svg"),url("./img1.svg");
+    background-repeat: no-repeat,no-repeat;
+    background-attachment:fixed;
+    background-position-x:10vh,55vh;
+    background-position-y: bottom,bottom;
+    object-fit:cover;
+   
+}
+
+.component {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10%;
+    gap: 5%;
+}
+
+.text {
+    max-width: 707px;
+    min-height: 282px;
+}
+
+.text-h3 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-wrap: nowrap;
+    display: flex;
+    gap: 10px;
+
+}
+
+.link-com-3 {
+    text-decoration: none;
+    color: #939CA3;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.link-com-3:focus {
+    color: #8064A2;
+}
+
+.link-com-3:hover {
+    color: #8064A2;
+}
+
+#Hobby {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:#0096C8;
+    font-style: normal;
+}
+
+#passion {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:#8064A2;
+    font-style: normal;
+}
+#img1{
+    display: none;
+}
+#img2{
+display: none;
+}
+.register-com{
+    border: 2px solid black;
+    width: 410px;
+height:  434px;
+gap: 32px;
+margin: 10px;
+display: flex;
+flex-wrap: wrap;
+}
+
+@media(max-width:768px) {
+.home-wrapper{
+    height: 170vh;
+    width: 100%;
+    flex-shrink: 0;
+    background: var(--Purple-3, #F7F5F9);
+    background-image: url("./img2.svg"),url("./img1.svg");
+    background-repeat: no-repeat,no-repeat;
+    background-attachment:scroll;
+    background-position-x:10vh,55vh;
+    background-position-y: bottom,bottom;
+    object-fit:cover;
+   
+}
+    
+} 
